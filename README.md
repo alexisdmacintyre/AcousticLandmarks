@@ -5,4 +5,6 @@ This package extracts one of four different speech envelopes from the raw speech
 
 In addition to these primary functions, a flexible windowing tool is included. It finds natural silent break points within a desired range (e.g., 4 +/- 2 seconds in duration) to break long audio down into shorter segments.
 
+Run acousticLandmarks.m with included example.wav to see how the package works.
+
 <img width="600" alt="Acoustic landmarks for speech rhythm analysis" src="https://user-images.githubusercontent.com/55560694/125111994-81cd2980-e0de-11eb-90e1-8912cdb7a037.png">
