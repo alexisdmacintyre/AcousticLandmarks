@@ -13,7 +13,7 @@ env = hilbert(signalIn);
 env = abs(env);
 
 % Low pass filter
-[z,p,k] = butter(8,lowPass/(round(FsIn/2)),'low');
+[z,p,k] = butter(10,lowPass/(round(FsIn/2)),'low');
 [sos,g] = zp2sos(z,p,k);
 env = filtfilt(sos,g,env);
 
