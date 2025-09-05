@@ -1,6 +1,8 @@
 # AcousticLandmarks
 MATLAB scripts for speech rhythm analysis. 
 
+If you have found them useful, **please cite as**: MacIntyre, A. D., Cai, C. Q., & Scott, S. K. (2022). Pushing the envelope: Evaluating speech rhythm with different envelope extraction techniques. The Journal of the Acoustical Society of America, 151(3), 2002-2026.
+
 **About**
 
 This package extracts one of five different speech envelopes from the raw speech wave form, and then looks for discrete events (e.g., lower crossings, peaks) within the signal. By combining amongst the envelopes and events, the user can generate different acoustic landmarks with which to analyse speech rhythm, or use as a time series for correlating with neural signals in speech perception experiments.
